@@ -52,7 +52,13 @@ python3 -m pipeline schedule --days 7   # publish ahead (the daily job does 2 da
 python3 -m pipeline review --sport nba  # optional: hand-review; your decisions override the rules
 ```
 
-The public site only serves `index.html`, `app.js`, `players.json` and `puzzles/` (see `tools/build_site.py`). The repo itself contains `pipeline/data/pool.json` with every candidate answer, so a public repo is readable by anyone who goes looking.
+The daily job commits to `main`, so run `git pull` before using the pipeline locally.
+
+## How answers stay hidden
+
+- **Puzzle files** never contain a readable answer. Each stage stores a slow PBKDF2 fingerprint of every accepted name, and the browser checks a guess against it. A correct guess also unlocks the date/team line. Peeking means hashing all ~26,000 autocomplete names per stage: this stops casual cheating, not a determined attacker.
+- **Struck-out answers** appear the next day under "Yesterday's answers": each day's file carries the previous day's answers. That's why only the current day is ever published.
+- **The candidate pool** is in the repo only as `pipeline/data/pool.json.enc`. The key lives in `pipeline/data/.pool_key` (gitignored, on your Mac) and in the `STATLINES_POOL_KEY` Actions secret. Keep a backup of the key: without it the pool can't be decrypted.
 
 ## Data sources
 
