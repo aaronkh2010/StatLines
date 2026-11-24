@@ -1,0 +1,66 @@
+# Publishes each day's puzzles and deploys the site to GitHub Pages.
+# Runs at 05:00 UTC (midnight EST / 1am EDT). Only the current day is published,
+# because each day's file carries the previous day's answers.
+name: Daily puzzles
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}      # "Run workflow" button for a manual publish
+  push:
+    branches: [main]
+    paths: ["index.html", "app.js", "players.json", "puzzles/**"]
+
+permissions:
+  contents: write            # commit the new day + pool.json
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # API responses for finished seasons never change; keep them between runs.
+      - uses: actions/cache@v4
+        with:
+          path: pipeline/.cache
+          key: stats-cache-${{ github.run_id }}
+          restore-keys: stats-cache-
+
+      - name: Pick and publish today
+        if: github.event_name != 'push'
+        env:
+          STATLINES_POOL_KEY: ${{ secrets.STATLINES_POOL_KEY }}
+        run: python3 -m pipeline daily
+
+      - name: Commit the new days
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "statlines-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add puzzles players.json pipeline/data/pool.json.enc
+          git diff --cached --quiet || git commit -m "Publish puzzles for $(TZ=America/New_York date +%F)"
+          git push
+
+      - name: Build the public site (game files only, no answer pool)
+        run: python3 tools/build_site.py
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

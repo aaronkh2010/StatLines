@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StatLines — Daily Sports Trivia</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Bebas Neue"', 'Impact', 'sans-serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <style>
+    body { background: radial-gradient(1200px 600px at 50% -200px, #1e293b 0%, #0b0f17 60%) fixed, #0b0f17; }
+    .scoreboard-cell { background: linear-gradient(180deg, #111827 0%, #0b1220 100%); }
+    .shake { animation: shake .4s; }
+    @keyframes shake { 0%,100%{transform:translateX(0)} 20%,60%{transform:translateX(-6px)} 40%,80%{transform:translateX(6px)} }
+    .pop { animation: pop .35s ease-out; }
+    @keyframes pop { 0%{transform:scale(.6);opacity:0} 100%{transform:scale(1);opacity:1} }
+    .fade-in { animation: fadeIn .25s ease-out; }
+    @keyframes fadeIn { from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:none} }
+  </style>
+</head>
+<body class="min-h-full text-slate-100 font-sans antialiased">
+  <!-- Header -->
+  <header class="sticky top-0 z-30 border-b border-white/10 bg-[#0b0f17]/85 backdrop-blur">
+    <div class="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+      <div class="flex items-baseline gap-3">
+        <h1 class="font-display text-4xl tracking-wider leading-none">
+          STAT<span class="text-amber-400">LINES</span>
+        </h1>
+        <span id="dateLabel" class="font-mono text-xs text-slate-400"></span>
+      </div>
+      <div class="flex items-center gap-2">
+        <div class="rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-sm">
+          <span class="text-slate-400">Daily Tracker:</span>
+          <span id="tracker" class="font-mono font-bold text-amber-400">0/15</span>
+          <span class="text-slate-400">Solved</span>
+        </div>
+        <button id="resultsBtn" class="hidden rounded-lg bg-amber-400 text-black font-semibold text-sm px-3 py-1.5 hover:bg-amber-300">Results</button>
+      </div>
+    </div>
+    <!-- Progress bar toward 12 -->
+    <div class="max-w-3xl mx-auto px-4 pb-3">
+      <div class="relative h-1.5 rounded-full bg-white/10 overflow-hidden">
+        <div id="progressBar" class="h-full bg-gradient-to-r from-amber-500 to-amber-300 transition-all duration-500" style="width:0%"></div>
+        <div class="absolute top-0 bottom-0 w-0.5 bg-emerald-400" style="left:80%" title="12/15 needed to win"></div>
+      </div>
+      <div class="flex justify-end text-[10px] text-slate-500 mt-1 font-mono">WIN LINE: 12/15</div>
+    </div>
+    <!-- Sport tabs -->
+    <nav class="max-w-3xl mx-auto px-4">
+      <div id="tabs" class="grid grid-cols-3 gap-1"></div>
+    </nav>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-6">
+    <div id="loading" class="text-center text-slate-400 py-20">Loading today's puzzles…</div>
+    <div id="error" class="hidden rounded-xl border border-red-500/40 bg-red-500/10 p-5 text-red-200"></div>
+
+    <section id="game" class="hidden">
+      <!-- Stage pills -->
+      <div id="stagePills" class="flex items-center justify-center gap-2 mb-5"></div>
+
+      <!-- Puzzle card -->
+      <div id="card" class="rounded-2xl border border-white/10 bg-white/[0.03] shadow-2xl shadow-black/40 overflow-hidden">
+        <div class="flex items-center justify-between px-5 py-3 border-b border-white/10 bg-white/[0.02]">
+          <div>
+            <div id="stageLabel" class="font-display text-2xl tracking-wider leading-none"></div>
+            <div id="stageType" class="text-xs uppercase tracking-widest text-slate-400 mt-1"></div>
+          </div>
+          <!-- Strike counter -->
+          <div class="text-right">
+            <div class="text-[10px] uppercase tracking-widest text-slate-500 mb-1">Strikes</div>
+            <div id="strikes" class="flex gap-1.5 text-2xl"></div>
+          </div>
+        </div>
+
+        <div class="p-5">
+          <div id="stageContext" class="text-sm text-slate-400 mb-3"></div>
+          <div id="statGrid" class="grid grid-cols-3 sm:grid-cols-4 gap-2"></div>
+
+          <!-- Hints -->
+          <div id="hints" class="mt-5 space-y-2"></div>
+
+          <!-- Result banner -->
+          <div id="resultBanner" class="hidden mt-5"></div>
+
+          <!-- Guess input -->
+          <form id="guessForm" class="mt-5 relative" autocomplete="off">
+            <div class="flex gap-2">
+              <div class="relative flex-1">
+                <input id="guessInput" type="text" placeholder="Who is it? Start typing a player…"
+                  class="w-full rounded-xl bg-black/40 border border-white/15 px-4 py-3 text-base placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-amber-400/70 focus:border-transparent"
+                  role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions" />
+                <ul id="suggestions" role="listbox"
+                  class="hidden absolute left-0 right-0 top-full mt-1 z-20 max-h-64 overflow-auto rounded-xl border border-white/10 bg-slate-900 shadow-2xl"></ul>
+              </div>
+              <button id="guessBtn" type="submit"
+                class="rounded-xl bg-amber-400 text-black font-bold px-5 hover:bg-amber-300 disabled:opacity-40 disabled:cursor-not-allowed">Guess</button>
+            </div>
+            <p id="formMsg" class="text-xs text-slate-500 mt-2 h-4"></p>
+          </form>
+
+          <!-- Previous guesses -->
+          <div id="guessList" class="mt-2 flex flex-wrap gap-2"></div>
+
+          <button id="nextBtn" class="hidden mt-5 w-full rounded-xl bg-white text-black font-bold py-3 hover:bg-slate-200"></button>
+        </div>
+      </div>
+
+      <div class="mt-8 text-center">
+        <details id="yesterday" class="hidden w-full text-left rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 mb-4">
+          <summary class="cursor-pointer text-sm font-semibold text-slate-300">Yesterday's answers <span id="yesterdayDate" class="font-mono text-xs text-slate-500 ml-1"></span></summary>
+          <div id="yesterdayList" class="mt-3 grid gap-4 sm:grid-cols-3 text-xs"></div>
+        </details>
+        <button id="resetBtn" class="text-xs text-slate-500 hover:text-slate-300 underline underline-offset-4">Reset today's progress</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Wrap-up modal -->
+  <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div id="modalBackdrop" class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+    <div class="relative w-full max-w-md rounded-2xl border border-white/10 bg-gradient-to-b from-slate-900 to-[#0b0f17] shadow-2xl pop">
+      <button id="modalClose" class="absolute top-3 right-3 text-slate-400 hover:text-white text-xl leading-none" aria-label="Close">✕</button>
+      <div class="p-6 text-center">
+        <div class="text-xs font-mono text-slate-400" id="modalDate"></div>
+        <h2 id="modalTitle" class="font-display text-5xl tracking-wider mt-1"></h2>
+        <p id="modalSub" class="text-slate-400 text-sm mt-1"></p>
+        <div class="mt-5 flex items-end justify-center gap-1">
+          <span id="modalScore" class="font-display text-7xl leading-none"></span>
+          <span class="font-display text-3xl text-slate-500 mb-1">/15</span>
+        </div>
+        <div id="modalMatrix" class="mt-6 space-y-2 text-left"></div>
+        <pre id="modalShare" class="mt-5 text-left text-xs font-mono bg-black/40 border border-white/10 rounded-xl p-3 whitespace-pre-wrap"></pre>
+        <button id="copyBtn" class="mt-5 w-full rounded-xl bg-amber-400 text-black font-bold py-3 hover:bg-amber-300">📋 Copy Results</button>
+        <p id="copyMsg" class="text-xs text-emerald-400 mt-2 h-4"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=4"></script>
+</body>
+</html>

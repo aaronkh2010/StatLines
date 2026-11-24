@@ -1,0 +1,9 @@
+pipeline/.cache/
+__pycache__/
+*.tmp
+.DS_Store
+dist/
+site/
+.claude/
+pipeline/data/pool.json
+pipeline/data/.pool_key

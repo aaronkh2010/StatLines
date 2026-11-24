@@ -1,0 +1,732 @@
+{
+ "date": "2026-11-24",
+ "nba": [
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Home game · 2005-06",
+   "stats": [
+    {
+     "label": "PTS",
+     "value": "81"
+    },
+    {
+     "label": "FG",
+     "value": "28-46"
+    },
+    {
+     "label": "3PT",
+     "value": "7-13"
+    },
+    {
+     "label": "FT",
+     "value": "18-20"
+    },
+    {
+     "label": "REB",
+     "value": "6"
+    },
+    {
+     "label": "AST",
+     "value": "2"
+    },
+    {
+     "label": "STL",
+     "value": "3"
+    },
+    {
+     "label": "MIN",
+     "value": "42"
+    }
+   ],
+   "hints": "dJiL0IzIg8GdgQWZoNGdpd3cgIXZ0FGbgQmbhBSZtlGdgUGa0BCdhBCOjASZy92dgUGSiACLi4Sey9GdzlGagEkQOBibpBCbhR3b0BSZtF2ZtUGbn5WazBCdzVGanlGatQmbvNWZzBSZoRHIzlGI0lkIgwiIuMncvRHchJFIvRnbvJ3bUBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "OF9vfnJg2n+wzMrNjT53Hw==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "4c0b097f8beccb256a91be34f8f00668",
+      "c": "7yOylXiFc6AcKNvaUT1/Lsap1QjeqhmdhhwLDE0mkCr77IR4TA2APSw7FW/x3VlpwKC2sSFt5Efemp79IqVadc3SBVP2GZpNrU1/RKRA"
+     },
+     {
+      "h": "59194370b4bbe10d4ca9a881a0d83fa3",
+      "c": "j+c2L70my3cdqx263UufGzbNpKw4KnXmRHbW9hKCogce1iD1Fkrb1Hp9bNv1aCW7j72EnM+AQKI1rZuyGcimYQA27HrgqWHzCLId2Gqj"
+     },
+     {
+      "h": "5e613f1f204738970ce1cce995078855",
+      "c": "rWsbnjKPcZuyQivnUDLRt7nIufVrLrSFs9wPY74b0apBkpGMLTiH4mzUCWAVyCNWm9KM46Uw5KALFu9j9QE3NlT9ed/pvUNbKpG17SBZ"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Road game · 2023-24",
+   "stats": [
+    {
+     "label": "PTS",
+     "value": "73"
+    },
+    {
+     "label": "FG",
+     "value": "25-33"
+    },
+    {
+     "label": "3PT",
+     "value": "8-13"
+    },
+    {
+     "label": "FT",
+     "value": "15-16"
+    },
+    {
+     "label": "REB",
+     "value": "10"
+    },
+    {
+     "label": "AST",
+     "value": "7"
+    },
+    {
+     "label": "MIN",
+     "value": "44"
+    }
+   ],
+   "hints": "=0lIuMncltWYMBSZoRHIvRHIkVGZhJHdgIXZ0FGbgMXY3BybodHIkJXY1dGIuFWauVmdvx2UgEGIzdSZIJCIsIiLyVmdlBSZtF2ZgcmbpJ3bjNHI0NXZodWao1Ca0RDIlhGdgI3bmByM3Aycn4WahxmclJWbhh2QgQHbpdFIkVWa0BCdJJCIsIiLzt2dhhEIhRnbhxGdBBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "RBAy4hnN+W9KdY18ElxMqg==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "cb6eb42a4f91ae161c818f2aa6f0a4d1",
+      "c": "jryfvOeag7B2s99fX9VigcCeTHecKbhsaeDLeBOgR2DWHld+v0gD3wFYWgZWH2HYDgfzqtn2rnU47uTrpbfl4BdJz7jbwg5XtGFUpWMJmg8o"
+     },
+     {
+      "h": "28826bbe9b9c355f05d0e841f6fcac57",
+      "c": "0dOD6vA/IfVJEAsl9NPRHs4ogyZe1rUvb7l/0q8trom4Ig0iRjqkeDWQaGhiRZ6S+VEU8O87+UCrEmDBJguAvv972omX6oVOWec+U+LQj7jx"
+     },
+     {
+      "h": "9b69f9acc00c96607766818e3b2e6a65",
+      "c": "9DW5dU6XJ86Z55wNQOBqCc2TuAu6uIth5IXdEOzycFMvl5jD0lyqPB7vNZELxg8K/5uzpp0pYtrud1aBw5Ohbr5zVvcTfGyXAXurvqaodUm0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 79 games",
+   "stats": [
+    {
+     "label": "PPG",
+     "value": "30.1"
+    },
+    {
+     "label": "RPG",
+     "value": "5.4"
+    },
+    {
+     "label": "APG",
+     "value": "6.7"
+    },
+    {
+     "label": "SPG",
+     "value": "2.1"
+    },
+    {
+     "label": "FG%",
+     "value": "50.4"
+    },
+    {
+     "label": "3P%",
+     "value": "45.4"
+    },
+    {
+     "label": "FT%",
+     "value": "90.8"
+    },
+    {
+     "label": "3PM",
+     "value": "402"
+    }
+   ],
+   "hints": "=0lIuMncvlmcyF2VgUGdhR3Ug4WZkx2bHBSZoRHIy9mZgMXehxGcgUGSiACLi4Sey9GdzlGagEkQOBibpBCUW1EIzV3btlmbh5WdgQ3cylmZgUGa0BSZtF2YlJGIlhkIgwiIu42bzFWZzBCdhhGdgkTLzcDI05WZ3BSbhVGdgMXaIJyW",
+   "lock": {
+    "salt": "mdqJpuWhacCm3242Pz7UlA==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "53d367243ff92608af4b2bc46167ab7f",
+      "c": "80rEhHu7NIE3rQ2H5UZ4cXQG4N0uBnKNcXOxzefWhtgOB/vmL8P5qE4098glJOqweJrG0EwzdVwORMvH8zYgEVQ="
+     },
+     {
+      "h": "b51af5e473dc509742720377944e1488",
+      "c": "Mvs3i6IaFYLHaQm4jmytOOXSzuR4/F54xDSh73Geyx6TLXPRIVI+6jgGHBqLtwS9A/C97ZVHKHbSYi1O/3AWKC4="
+     },
+     {
+      "h": "7b4ac59b1ec65a269b8d67b0a406cd00",
+      "c": "IgLRj4U/YAPie6X90uSIiEohY2tBjR0hOJJEIzObGOQS6E+LD82XNRZxCBX5Bs5NAZJ0F5biK8dUye8YVY44m+A="
+     },
+     {
+      "h": "d6387c8fae3cb9729967fcb3798042a9",
+      "c": "nCbrEkH0vXJ1wZyu1Yf88gDtlFpiOUmkfNJItJHbJB/3ptgxdTbSllTUQoG1Plqf8RvK1ux2PQOagzgPpDgoe4E="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 81 games",
+   "stats": [
+    {
+     "label": "PPG",
+     "value": "31.6"
+    },
+    {
+     "label": "RPG",
+     "value": "10.7"
+    },
+    {
+     "label": "APG",
+     "value": "10.4"
+    },
+    {
+     "label": "SPG",
+     "value": "1.6"
+    },
+    {
+     "label": "FG%",
+     "value": "42.5"
+    },
+    {
+     "label": "TRIPLE-DBL",
+     "value": "42"
+    }
+   ],
+   "hints": "dJiLyVGZuVHaUBSe0l2QgEWbvhWYst2TgUGa0BCa0l2dgAlVNBibvdHIlhkIgwiIuUGdhR3Ug4WZkx2bHBicvZGI0ZWZsBichR3ct82YgMXaoBiclRnZhBibvNXYlNHI0NncpZGIzlGagMXY3BCdJJCIsIiLkJ3bjVmcgUGbiV3bk1SZsBXayRHIu92chV2ctUGbn5WazBycn42bzRnclJ2bSBichN2cPBSZr9mciBSZIJyW",
+   "lock": {
+    "salt": "b04JNToZU4v9fysrzffe+A==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "e20dd3d5445fba73d883959f7981df53",
+      "c": "siDuaKrYoHodRDXmJrSN096zwrRjZXyC2UtM9UB7j3RCvy3EH/JESdN8LKFdhPZNHWBwhYgGzgbYQ1M="
+     },
+     {
+      "h": "642238575007c190bbcc19d8b3909a24",
+      "c": "0g7R9+VzJy57JuPYhES6TmCNMdsZorHkyxJ+y1RM1RvGekwXvTZPW02cTmnD9GOCq7KCsI+FDw25qls="
+     },
+     {
+      "h": "87bee1fa890e32acdb4fa4c021f0b4c6",
+      "c": "dD30oiAeewPi/Dx1xHAH5oI8LQzjkOeq8vToaJqh3jw0rASdD7XjdflaBZ8JRXgI4SLgtzgSU/aT1mE="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Wild Card · Playoff Run",
+   "context": "NBA Finals · 7 games",
+   "stats": [
+    {
+     "label": "PPG",
+     "value": "29.7"
+    },
+    {
+     "label": "RPG",
+     "value": "11.3"
+    },
+    {
+     "label": "APG",
+     "value": "8.9"
+    },
+    {
+     "label": "SPG",
+     "value": "2.6"
+    },
+    {
+     "label": "BPG",
+     "value": "2.3"
+    },
+    {
+     "label": "FG%",
+     "value": "49.4"
+    }
+   ],
+   "hints": "=0lIuQmbhxWZ2VGbDBicvZGI0h2Z19mckBCcph2cu9Waw1WYoNGIyFWZ51iM1ASYgQWZk5WZgQXSiACLi4ycllmcvdWZ0F2YgwWYjlGdzlGdhR3cgI3bqFWbgUmdpZGIsxWYg4WagMXbhVGdggEVPJEIkVGbgUGSiACLi4CdpNWamVGZgMXZpJXZzBSMtMDIhBSbvJnZgs2YhJGIl1WYjBSbhVGdgMXaIJyW",
+   "lock": {
+    "salt": "PNblkd+wtHosEXYURohvfw==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "6baf66d47134ffead86a7415db4d23cd",
+      "c": "oKKcdkOYBoX5Q++rgC3rOSyZCff6P82K2GH6bIh9mlkhCXvWNCbXXt9bCpa5z7tBgLCtCYcnKdZWrAaHavglz1BcBojH"
+     },
+     {
+      "h": "dc6b696fe5f2c92f0c04abe5bea595c9",
+      "c": "IB/wO4imU5qCgQAMZKDHGp2hx1SVjGokHvZGFcuLAejb5yWxun8XOagZ9DXjFmgDoTHuyU36qme9BijcvhYvfensI4M6"
+     },
+     {
+      "h": "cf0efef9b718b0c5440d06e36b06a4ce",
+      "c": "nkelMjnIMDLnYCGzQoicsDdzQYksk0SPveVAZ4ciusleqfA8bUPDGcuJQsLBmyWbHY2cfchs2xvsAEHbBAQJxRKG9ynH"
+     }
+    ]
+   }
+  }
+ ],
+ "mlb": [
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Road game · 2024",
+   "stats": [
+    {
+     "label": "AB",
+     "value": "6"
+    },
+    {
+     "label": "H",
+     "value": "6"
+    },
+    {
+     "label": "HR",
+     "value": "3"
+    },
+    {
+     "label": "2B",
+     "value": "2"
+    },
+    {
+     "label": "RBI",
+     "value": "10"
+    },
+    {
+     "label": "R",
+     "value": "4"
+    },
+    {
+     "label": "SB",
+     "value": "2"
+    }
+   ],
+   "hints": "dJiLzJXZnR2bEBSZoRHIy9mZgcmbplXYsBHIyFGdzJXZwV3cgU2cl5WYwFmSgkXY31yb3RHIhBycnUGSiACLi4iY1x2YgI0UgATNg8CIShEIwUDIlhGdgY2bgIXZi1WZtBCdzJXamBSZoRHItlGagUGZh1GIl1WYnBycphGViACLi4SatFWaNBibpBCZllXYsBHIzF2dgUWbhdGIzlGaUJyW",
+   "lock": {
+    "salt": "5MEe3Dl31GVO0L71vLThSQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "6b20a89c7a2bf0b6b32359da2fa41f0b",
+      "c": "ANqDw1ADP2k+SeoWxOgbPRqCUIWPa2AxLQr402NW7W3w7LZOv2TFxk1tEMF2wDJURDYlthIpNtuAb2ZVBXdmM/X3/r+FNdpNn8hjnXLl"
+     },
+     {
+      "h": "436db3e5cf9901dc01c55a002611b317",
+      "c": "M1NKvaXVKEwLEviRSbXHlATSodhkBsNdKm4MwDvsG85TskdoLEHUJe0XpjQSBrvUBCYKmPXrjjcXMdxOgGerIn/8W2HOQdUQcHDWPHYx"
+     },
+     {
+      "h": "2008bc53418c9147bfb282e0c29af3ca",
+      "c": "s+SukmYSWiWaY+f11P2IVazXJo88fDTAhXm4DxnLyXbnmani2Z50klPqpN9BLQ1ogPa5GcO4/e2FT2rqUnMN6AiShNgX0W00eH2NylRe"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Home start · 1998",
+   "stats": [
+    {
+     "label": "IP",
+     "value": "9.0"
+    },
+    {
+     "label": "H",
+     "value": "1"
+    },
+    {
+     "label": "R",
+     "value": "0"
+    },
+    {
+     "label": "BB",
+     "value": "0"
+    },
+    {
+     "label": "K",
+     "value": "20"
+    },
+    {
+     "label": "PITCHES",
+     "value": "122"
+    }
+   ],
+   "hints": "dJiLyFWZZBSZoRHIm9GIll2av9mUgwkTg42b3BCZuFGIzJWdDBybnF2Yph2QgUGa0BicvZGIkVGajRXawBSZIJCIsIiLkxWZpZEI5VGbnlmcXBCdhBCLz9mc0NXQg42b0NXdvhEIlhGdgMXY3BCduVmbvBHcvBSZoRlIgwiIuQnchR3cgIXZlJXYjBCa0VDIzlGagkHbu9GIn5WarFWbgUWar92byBCZs9WLyFWZ51CMyASYgMXY3BSZIJyW",
+   "lock": {
+    "salt": "h1EKKos6jIdGrs+zKoGVww==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "ed1d3db15c85612ec887c91d9f8f2ad9",
+      "c": "CbWDzqeswvV8sf6mwPFBWqej4huz4NmL/OuANF420W2++lmou5R2K6X5sQOZaxaFOu/SzODme2VRs7JmszGw299Nn1zZ"
+     },
+     {
+      "h": "ce510050fa2ead1fbd113da7e93ecaeb",
+      "c": "5UWhGNyOtuInqeu6HVE/aMqvcllNfvXGvJsGG/Vqu/ygXm80DR1rXGjI54vG+LTpJ5oOyD5vMPEakSJ8mDLK2nZ2RXGb"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 153 games",
+   "stats": [
+    {
+     "label": "HR",
+     "value": "73"
+    },
+    {
+     "label": "AVG",
+     "value": ".328"
+    },
+    {
+     "label": "OBP",
+     "value": ".515"
+    },
+    {
+     "label": "SLG",
+     "value": ".863"
+    },
+    {
+     "label": "RBI",
+     "value": "137"
+    },
+    {
+     "label": "BB",
+     "value": "177"
+    }
+   ],
+   "hints": "==QXi4yc05WYpdEIvN2cpNmbhJnRg4WYTBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiLyFWZ5BCdhhGdgMHZyF2dhBCUW1EI3AycphGIm9GIoRHNgUGa0BibvdHIlhkIgwiIuQmcvNWZyBib1JHIl12boBibvNXYlNXLlx2Zul2cgUGa0BCbslGdzBycpBCdJJyW",
+   "lock": {
+    "salt": "DHBJSdyzuHtLpU3dedUy7g==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "719157e8672f5f26868c885f0879d0cb",
+      "c": "fm94TdzqRywICijpeip7fQND7+GlnLAxM2H5xRigHjjS+gzRcV3ew7/a6qTCCJ0Lxa+S10M="
+     },
+     {
+      "h": "c8884575bebd5d49d6bd209fe5750440",
+      "c": "U34NMYph63f4FsXwd5bmt8FdLfLVpb1SvxryRYIPK4wNvynDB6QK0J0Id8JRKMaIE3fwF2g="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 29 starts",
+   "stats": [
+    {
+     "label": "W-L",
+     "value": "18-6"
+    },
+    {
+     "label": "ERA",
+     "value": "1.74"
+    },
+    {
+     "label": "IP",
+     "value": "217.0"
+    },
+    {
+     "label": "K",
+     "value": "284"
+    },
+    {
+     "label": "WHIP",
+     "value": "0.737"
+    },
+    {
+     "label": "ERA+",
+     "value": "291"
+    }
+   ],
+   "hints": "dJiL492UgQWZSBibvR3cvJEIlhGdgI3bmBCZlh2Y0lGcg8Ga3BiclRmbhhWL0h2ZpJHIuF2Yp5Wat9GRgEGIzdSZIJCIsIiL5x2c19Wbp5WYuVHIn5WdvlFI5NEIMFEIlhGdg42b3BSZIJCIsIiLhJXZgQWavJXZ0NHIlhGdgY2bgQHanlWZoBSZoRHIUCo4gADMuUDI5xmchVmbgMXY3BichVWegQXYoRHIBJVRgUWdnFWZMJyW",
+   "lock": {
+    "salt": "pXAAU191J3b63CKGPoKIpQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "85e2de13521212143ec10ee7c98a39f7",
+      "c": "Aa4b6ZwSCEyQ+GSAkv65TvZM8pBfxB+dWpBotuNEOTH6gRfmJJAzosTFOOxByKRrp57bnDL7NFE/FiCp+w=="
+     },
+     {
+      "h": "dce3589cb68357a99e0b24e1f35e5427",
+      "c": "kIkNY/U9YLdSfn0L7hV+054BClrUQbEPl1nERPjuiWJZuvMJd27NhjMGIP6uD50yGA0hq52u0TC0UUXKJw=="
+     },
+     {
+      "h": "75757b0ff187f2788faeca865ac51a2f",
+      "c": "Pv7oNkyA1/Ws+5FptaIQgpTkQXx7RpIXk5Q4uPODHgkvF7cM4rs3pYqtP12upzmLvLxPWQblhjkV17/xaA=="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Wild Card · Postseason Run",
+   "context": "Postseason · Wild Card through World Series",
+   "stats": [
+    {
+     "label": "W-L",
+     "value": "4-1"
+    },
+    {
+     "label": "ERA",
+     "value": "1.03"
+    },
+    {
+     "label": "IP",
+     "value": "52.2"
+    },
+    {
+     "label": "K",
+     "value": "45"
+    },
+    {
+     "label": "SHO",
+     "value": "2"
+    },
+    {
+     "label": "SV",
+     "value": "1"
+    }
+   ],
+   "hints": "dJiLzRnbhl2Rg82Yzl2YuFmcGBibhNFIlhGdgI3bmBCUW1EIzVWayV2UgQGby92Vg42b3BSZIJCIsIiL3ASZtF2Rg4WagQ3clJHInMXehRGIvdHdg42bgYWZpxWZyBiZvBycn5Wau5WagM3clxWZy92YzBSNgcXZyhGdgUGSiACLi4SZtF2RgQmchNEIkxWaXBSZoRHIulGIuVncgUGa0BibhdWZiBSbhVGdgMXaIJyW",
+   "lock": {
+    "salt": "1dUfav2fucNFVcCkcyYa5A==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "5d9ff0fbec48a96fda757711a2cf26c4",
+      "c": "OKeMRndC//WarfA943PFVX3r0c4SPyYx2IEfSUDdRJIc4ElIc/Y6GAlxrsZfOPa2aMrYSp55UclcccuRrI/i94i6FmDP1ZVGTfa9JF6vJwU="
+     },
+     {
+      "h": "48540c39bbf1a1b54164d31f852132fe",
+      "c": "U3njN18U9KTYT2ma9L10kenxcsfs4fSUtpc/XyChXeWdUkTJ4xUy5JTe+jfu4KJ6lQN+4Qi4Lnw1lxC3Tnlm4pQgCIy/5H+SGLIpAzJb8iA="
+     },
+     {
+      "h": "44fc9afb2fde9c72f34903d20b071253",
+      "c": "tmrl3Ohw3Sptw1ccSnm1aq+eEdiYIUSyXxErzx/9kjkyf6jdIyQdvn2Zu8HW+Jiwc3RKabi2pwbS12iKOUpDPFuIz8qsJNgoLD9RHQ+YTPw="
+     }
+    ]
+   }
+  }
+ ],
+ "nfl": [
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Home game · 2007",
+   "stats": [
+    {
+     "label": "CAR",
+     "value": "30"
+    },
+    {
+     "label": "RUSH YDS",
+     "value": "296"
+    },
+    {
+     "label": "YPC",
+     "value": "9.9"
+    },
+    {
+     "label": "RUSH TD",
+     "value": "3"
+    },
+    {
+     "label": "LONG",
+     "value": "64"
+    }
+   ],
+   "hints": "dJiLnkXYEBCbsF0JgQWZtFmbrNWauBychdHIk5WYgM3Zul2apZFIhR3bzVmbulWTgUGa0BicvZGIkVWehxGcgUGSiACLi4ycyV2ZyFGaDBybnVWaEBibhNFIlhGdgMXY3BCduVmbvBHcvBSZoRHIk5WYgUWar92byBSYgMXY3BSZIJCIsIiLkJ3bjVmcgcmbph2c1JHIl1WYn1SZsdmbpNHIMZkTgUGa0BycpBCdJJyW",
+   "lock": {
+    "salt": "vEFXmjPKJPyNQAy4Faavcw==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "7e303266c11a44e4c84bf2be972127cc",
+      "c": "9yIZ2l0hKAKrYNnHBwEnzX/Ut8yn43uj6jwIAb3/iej0BmsXlX58olMlKJsPp6OSBcSOUjPYlkxP05Hfwawtjb4mDrV3FjdmJW+Tke+/Brkx"
+     },
+     {
+      "h": "90237f8f89a5158dc5074dc2ed730b74",
+      "c": "oOR8zAEkpkhsesOhkKH0zMRDNtGsDa24GRv20tfGJL+NU0Oe1OqjRsYflM8MbuP0GyyD/Wx029rPkz21QQVBiWr0FZBWGBN63XYc5xmVt7It"
+     },
+     {
+      "h": "d01049f790278b9f9b66df736505deba",
+      "c": "Ot5py/mpZDwfQCOmer9tkY4ENdU3UR8MMn2bBl4rAxhLh/fOVN2U06VgCvYy5cn5WRahNvsmvOfzZn73wKL5+ctEPwpHbjlTw9gSCIDWAly1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Single Game Box Score",
+   "context": "Super Bowl · Neutral site",
+   "stats": [
+    {
+     "label": "C/ATT",
+     "value": "43/62"
+    },
+    {
+     "label": "PASS YDS",
+     "value": "466"
+    },
+    {
+     "label": "TD",
+     "value": "2"
+    },
+    {
+     "label": "INT",
+     "value": "1"
+    },
+    {
+     "label": "RESULT",
+     "value": "W (OT)"
+    }
+   ],
+   "hints": "=0lIuMHdvlmc0FGUgQmbhx2ZuVEI3VmTgUGa0BCa0l2dgcmbpJHIoRXNgMXaoBibvdHIlhkIgwiIukncvR3cphGIsd3bCBiclBXdTBibpBSZtF2ZgUWbpRnclZ3bgQ3cylmZgUGa0BychdHI0lkIgwiIuIXZ0JXY1FHIkJXaoRHIlhGdg4WagMTL4IDIkVGbpFmc0BSbhVGdgMXaIJyW",
+   "lock": {
+    "salt": "8Vq4GERGc2WC0Sh8jeHzJQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "544e5f6717c68ec4f52744a7dc271775",
+      "c": "ahAU5EFWQ76VZzeP+GT4HANhbJbfeotoZwK6P/K5BcGvrWNGz9umptnaNkv2BAmdVj6GHX0Pkd48CNzPDcgq5QZt8EiqnAEr0tSwFMRrYR0xHQ=="
+     },
+     {
+      "h": "3d8261a4c9ae2088f88917c95eabe6e6",
+      "c": "gH7WZGRzOj0xuXF2OzfgLDdzXcJbWkFAbcpkvICU8w1PGXESpTN0ogQ65DmDdAUs5cNi2V4vfYu8YaHKWqIT1EErjHKCmjDR9lFv+0sHHv8pRg=="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 16 games",
+   "stats": [
+    {
+     "label": "C/ATT",
+     "value": "450/659"
+    },
+    {
+     "label": "PASS YDS",
+     "value": "5,477"
+    },
+    {
+     "label": "TD",
+     "value": "55"
+    },
+    {
+     "label": "INT",
+     "value": "10"
+    },
+    {
+     "label": "RATING",
+     "value": "115.1"
+    }
+   ],
+   "hints": "==QXi4ycpx2bwFmbhlGZulEIulGIzJXYllHI0EDIyVGdmFGIz92Yu9mcCBiclZnblREIlhGdgI3bmBCZllXYsBHIlhkIgwiIuUmcv1Wa0xWYCBCdz5WahdWYgIXZuVGcvBibvNXYlNHIlhGdg4WagMnb39GZoNWdvRHI3AydlJHa0BSZIJCIsIiLl1Wa0BSZoRHI0FGIzRmcvNWZyBibvNXYlNXLlx2Zul2cgUmcldHIzxWY09Gdg42dvRGajV3b0BCZuFGIldWYkJXY5BSZoRHIoR3bCJyW",
+   "lock": {
+    "salt": "YpBvppjGWDIepM8rrsIuvA==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "2bf62043ac43f6876c169068a6dbaa50",
+      "c": "tFGV+RZwMey8Hbpu3EMGSnxrZadrT/kqNwAmzhMiMeFztO5nvYkclMAeIr4/0kif+ZbTcv8RceYw"
+     },
+     {
+      "h": "69d48669052d63c7f82895e6d714e85c",
+      "c": "dKs9xdbcsYI0LPZHMofg4lQpGvv45AD2/49wB+ZRhDr77dDcui63OwB2SQRyNe4LEQvH7WpC3TFK"
+     },
+     {
+      "h": "32982139eb58ff5d7e7b57db2b62dea6",
+      "c": "aoVm/uFY6Fd9kBXfIDf0F6CJqdMBRRXuCmuTWD2FF7DiYIOQXyZLVsus68egBEQk2Z9KQws1Pxvq"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 17 games",
+   "stats": [
+    {
+     "label": "REC",
+     "value": "145"
+    },
+    {
+     "label": "REC YDS",
+     "value": "1,947"
+    },
+    {
+     "label": "REC TD",
+     "value": "16"
+    },
+    {
+     "label": "TGT",
+     "value": "191"
+    },
+    {
+     "label": "YPG",
+     "value": "114.5"
+    }
+   ],
+   "hints": "dJiLz1WYSByclxWZn5WQgM3bMBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiLQZVTgw2dvJEIyVGc1NFIk5WYgIXYllFIlhGdgY2bgIXZ5FGbQBSZ2l2cuVmZm9EIkVWbh5GIzF2dgUGSiACLi4SKERFIsMHZ5BCLjVmcoAyJud3byNGIlxGcpJHdnAyZulmdpV2YlJHIlhGdg42b3BSZIJyW",
+   "lock": {
+    "salt": "a7ZOarS0of2b5tNGLV/4og==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "20386fc7bef8ca82eaa6b5d504c1fa9e",
+      "c": "idBJ/7RtsJTLX37uPofiUqYe1sKg9SgG2a2hhw1bhx0CNnZ+THs9DTJ3zwKVvtLQgKS/qx/sTqX/NUYhSPzuAd8+I0iWNN/x"
+     },
+     {
+      "h": "c68630f8fcabc7c297aa1526addd15e1",
+      "c": "R9uWP5eAWDiwad23Iwxm4dNI1fCNqKbAXGe5Fs1R0Gr1r8CVuV982YAGMqGxENe+DeJwndePaVw5hQOJyxQ84hKWbg+nBial"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Wild Card · Career Run",
+   "context": "Career · 20 seasons · 303 games",
+   "stats": [
+    {
+     "label": "REC",
+     "value": "1,549"
+    },
+    {
+     "label": "REC YDS",
+     "value": "22,895"
+    },
+    {
+     "label": "REC TD",
+     "value": "197"
+    },
+    {
+     "label": "TOTAL TD",
+     "value": "208"
+    },
+    {
+     "label": "RINGS",
+     "value": "3"
+    }
+   ],
+   "hints": "=0lIuMncllDNg82Yzl2YuFmcGBibhNFIlhGdggGdpdHIz52bzFWZzBiNxACduVGczBSZIJCIsIiLlRXY0NFI5VGbsFmVgkGcwl2czl2czlWTgQXYgwGbhJGIldWZsx2bjBCZllXYsBHIlhkIgwiIuMHRUByZulmdpV2YlJHIk5WYgwyckJXY5ByZulmdpV2YlJHIsMnbvlGdwV2YlJHIy9mZgMHZy92YlJHIyVWZyF2YgUGa0Byckx2boBSZIJyW",
+   "lock": {
+    "salt": "U9XEDXmBriAFue1+lQ/V6A==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "ccf299ebd95b8c6c08d7296b3f3a6720",
+      "c": "kwLRB0K7GY574pLOt9pvZNoaXQ4WGgCcDuGlpfVhYpK6RQVTi7ozKwM7B4bj4ovBmK0UResw0a8wzip2F3uUHKlzido="
+     },
+     {
+      "h": "a3baff86ae0dc83c15bd84ce6acb68c4",
+      "c": "46xPc/6yQutEzpFdKU7urkahvdZ/E4xPU5nMS0JB3du8wjN0ThEtyBGt67ua459+NnHzjn8bTAxKbhghY2XoxOUYSxY="
+     }
+    ]
+   }
+  }
+ ]
+}
