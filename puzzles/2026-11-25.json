@@ -1,0 +1,789 @@
+{
+ "date": "2026-11-25",
+ "nba": [
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Road game · 2021-22",
+   "stats": [
+    {
+     "label": "PTS",
+     "value": "60"
+    },
+    {
+     "label": "FG",
+     "value": "19-31"
+    },
+    {
+     "label": "3PT",
+     "value": "7-11"
+    },
+    {
+     "label": "FT",
+     "value": "15-16"
+    },
+    {
+     "label": "REB",
+     "value": "17"
+    },
+    {
+     "label": "AST",
+     "value": "3"
+    },
+    {
+     "label": "STL",
+     "value": "1"
+    },
+    {
+     "label": "BLK",
+     "value": "0"
+    },
+    {
+     "label": "MIN",
+     "value": "36"
+    }
+   ],
+   "hints": "=0lIuQlLLBSZyFGIzxWYpRXaulGIzlGSiACLi4yclZHbvdnclJWbpRFIhR3bzVmbulWTgUGa0BicvZGIkVWehxGcgUGSiACLi4ycyVHcTBybp52b05WQg4WYTBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "v2janhPBUaCvqEcO9dknrg==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "77df1046d3a26de5683808846ecaecd3",
+      "c": "vKuxljtkJrU3K1GAsBOfj0tNYPlu71BU2VE1OZfbaZuJmA270CjFESE8y6SPby46IN3CBcNd0Hf34JSCG9y4Bt7gRZXBuA/PGliSEHX+oJ4kqCSC6//mCKmYvjyqRQ=="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Road game · 2022-23",
+   "stats": [
+    {
+     "label": "PTS",
+     "value": "20"
+    },
+    {
+     "label": "FG",
+     "value": "7-17"
+    },
+    {
+     "label": "3PT",
+     "value": "1-8"
+    },
+    {
+     "label": "FT",
+     "value": "5-5"
+    },
+    {
+     "label": "REB",
+     "value": "5"
+    },
+    {
+     "label": "AST",
+     "value": "20"
+    },
+    {
+     "label": "STL",
+     "value": "3"
+    },
+    {
+     "label": "BLK",
+     "value": "0"
+    },
+    {
+     "label": "MIN",
+     "value": "38"
+    }
+   ],
+   "hints": "==QXi4iVuYEIlJXYgMHbhlGdp5WagMXaIJCIsIiLzJ3b0BXYSByb052by9GVgUGa0BicvZGIkVWehxGcgUGSiACLi4yc0Vmby9GSgUGd09GbyFGaDBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "xvLreeRu66dgOxnr6owoaQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "2fff3dacc5dcec55ec47c9839784448b",
+      "c": "5OrpNTXfCR2mvux31wSei7qScmvYkbYkVTL7TpKajxZISUcH41UviRHmWlAGW8RCax3+d5LsiDBRstrrIZS4fl0w3mhi1SXCmN3ZfRPVFkIX9V/0sPpqEA=="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 74 games",
+   "stats": [
+    {
+     "label": "PPG",
+     "value": "27.1"
+    },
+    {
+     "label": "RPG",
+     "value": "13.8"
+    },
+    {
+     "label": "APG",
+     "value": "7.9"
+    },
+    {
+     "label": "SPG",
+     "value": "1.5"
+    },
+    {
+     "label": "BPG",
+     "value": "0.9"
+    },
+    {
+     "label": "FG%",
+     "value": "58.3"
+    },
+    {
+     "label": "3P%",
+     "value": "33.7"
+    },
+    {
+     "label": "FT%",
+     "value": "81.0"
+    }
+   ],
+   "hints": "dJiLK5iTgUmchBycsFWa0lmbpBycphkIgwiIuMHdld2Z15EIyVmduVGRgUGa0BicvZGIkVWehxGcgUGSiACLi4SNxAjMg4WagQXdiVGZgEkQOBycphGIlRWYtBybodHIyVGduV2YgEGIzdSZIJyW",
+   "lock": {
+    "salt": "guwjv41hB4p5f7kDfibdUA==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "2b5e660ce329c2ebbd67987e1ca84595",
+      "c": "Y7D55YpHw7O58F+7KwHP87WrjgY9G+1lomzfVI44yJTFm3MH+INBYUq8z3cOiZaUaCHOuybe0HL1/RF33k/vFUc="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 82 games",
+   "stats": [
+    {
+     "label": "PPG",
+     "value": "21.8"
+    },
+    {
+     "label": "RPG",
+     "value": "4.7"
+    },
+    {
+     "label": "APG",
+     "value": "7.6"
+    },
+    {
+     "label": "SPG",
+     "value": "2.3"
+    },
+    {
+     "label": "BPG",
+     "value": "0.5"
+    },
+    {
+     "label": "FG%",
+     "value": "42.6"
+    },
+    {
+     "label": "3P%",
+     "value": "33.0"
+    },
+    {
+     "label": "FT%",
+     "value": "75.0"
+    }
+   ],
+   "hints": "dJiLE5iQgUmchBycsFWa0lmbpBycphkIgwiIuMncvlmcyF2VgUGdhR3Ug4WZkx2bHBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiL5kTOxAibpBCd1JWZkBSQC5EIzlGagUGZh1GIvh2dgQmchV3ZgQnbp9GcgEGIzdSZIJyW",
+   "lock": {
+    "salt": "sXDfTxnT4BW3rG+R2TQ3UA==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "688ed92e859558e698f21d8433007815",
+      "c": "Qp3+CYO5FGu0oNEv493XoPgbxMq1jZDQ/EaWjlVQbLMGeSoXh2Xp+IbyfwLdmHu69ot+LsABmq+z3PbkMf1+5d76h9Ycd3g="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Wild Card · Playoff Game",
+   "context": "Playoffs · Home game · 2020-21",
+   "stats": [
+    {
+     "label": "PTS",
+     "value": "40"
+    },
+    {
+     "label": "FG",
+     "value": "15-29"
+    },
+    {
+     "label": "3PT",
+     "value": "3-7"
+    },
+    {
+     "label": "FT",
+     "value": "7-7"
+    },
+    {
+     "label": "REB",
+     "value": "13"
+    },
+    {
+     "label": "AST",
+     "value": "11"
+    },
+    {
+     "label": "STL",
+     "value": "0"
+    },
+    {
+     "label": "BLK",
+     "value": "0"
+    },
+    {
+     "label": "MIN",
+     "value": "44"
+    }
+   ],
+   "hints": "==QXi4iQuQEIlJXYgMHbhlGdp5WagMXaIJCIsIiLz5WdTBCep5WZvhGUgUGa0BicvZGIkVWehxGcgUGSiACLi4ycyVGcwlGbDBSQMBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "ABs1hCqVAULU6iRT8i2HYQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "4a2e65b859a9b17d69de94f29c9493a6",
+      "c": "b1MIlNooBUmNpCS6vcbHHPhk9PzCBdJFxR2WKIWiXw19InB41NYreXpwT6LCgyS0/Nep1IsDG/hdqMvq//qlMf4WuU74PjAkNd0N1lgGEmVn4SWG"
+     }
+    ]
+   }
+  }
+ ],
+ "mlb": [
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Road game · 2012",
+   "stats": [
+    {
+     "label": "AB",
+     "value": "5"
+    },
+    {
+     "label": "H",
+     "value": "5"
+    },
+    {
+     "label": "HR",
+     "value": "4"
+    },
+    {
+     "label": "2B",
+     "value": "1"
+    },
+    {
+     "label": "TB",
+     "value": "18"
+    },
+    {
+     "label": "RBI",
+     "value": "8"
+    },
+    {
+     "label": "R",
+     "value": "4"
+    },
+    {
+     "label": "BB",
+     "value": "0"
+    }
+   ],
+   "hints": "=0lIugkLKBSZyFGIzxWYpRXaulGIzlGSiACLi4ycyV2ZuFmUgMXY4VGVgUGa0BicvZGIkVWehxGcgUGSiACLi4yclx2bpJ3TgUmcv1Wa0xWYCBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "SPN9y26pJTni6HZbjWcarA==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "4f905f2cd859b9125b630d701a985b80",
+      "c": "rbcEaYIBbk/mz7BEjmRt/G4LxOTSjEnRJugVV/fHj4tLiwibspRyfmc/a3vWZsOz5WhkGBrQoNj8A02/4d3Zs2rMb6kP0GXuiTbV"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Home game · 1999",
+   "stats": [
+    {
+     "label": "AB",
+     "value": "4"
+    },
+    {
+     "label": "H",
+     "value": "4"
+    },
+    {
+     "label": "HR",
+     "value": "3"
+    },
+    {
+     "label": "2B",
+     "value": "0"
+    },
+    {
+     "label": "TB",
+     "value": "13"
+    },
+    {
+     "label": "RBI",
+     "value": "6"
+    },
+    {
+     "label": "R",
+     "value": "3"
+    },
+    {
+     "label": "BB",
+     "value": "1"
+    }
+   ],
+   "hints": "dJiLC5SQgUmchBycsFWa0lmbpBycphkIgwiIuMXZs9Way9EIlJ3btlGdsFmQgUGa0BicvZGIkVWehxGcgUGSiACLi4ycsV2ZuFEItlWZoFmbBBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "QSDWTn+37BReVNxWEXpsqA==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "8b8fca6b727baadf19569d152b413191",
+      "c": "Ywq5sStlS8YH8iamSpotg8qeRmumS1SGFxt6JB8tg7mEJdfmZPTmP4oFK6SDajNfPFGm4YHmNBrsK3Po2AbuYpAVVRs3bFgMx54="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 162 games",
+   "stats": [
+    {
+     "label": "AVG",
+     "value": ".288"
+    },
+    {
+     "label": "HR",
+     "value": "63"
+    },
+    {
+     "label": "RBI",
+     "value": "141"
+    },
+    {
+     "label": "R",
+     "value": "114"
+    },
+    {
+     "label": "SB",
+     "value": "7"
+    },
+    {
+     "label": "OBP",
+     "value": ".367"
+    },
+    {
+     "label": "SLG",
+     "value": ".635"
+    },
+    {
+     "label": "OPS",
+     "value": "1.002"
+    }
+   ],
+   "hints": "=0lIuMlLTBSZyFGIzxWYpRXaulGIzlGSiACLi4yciV3Qg82ZhNWaoNEIlhGdgI3bmBCZllXYsBHIlhkIgwiIuMWasJWdwVmUg4WYjlmbp12bEBibpBiby9mYgMXY3BCZuFGI5gTOxAibpBCZlRXdiVGZg8Ga3BiclRGbllmZ0V3bgEGIzdSZIJyW",
+   "lock": {
+    "salt": "uwNZaYtF3mG8oJs1LwEl9Q==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "8e55c08db72d00f00bd0668d46dde8bd",
+      "c": "mVSG4/NcG40nvsWRoZpEHzB2m2DZUrDFiTmYn4ZOgh/s8Odh8kom4qWoCiCRi+DNl8ls1GCQq2hneA=="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 112 games",
+   "stats": [
+    {
+     "label": "AVG",
+     "value": ".346"
+    },
+    {
+     "label": "HR",
+     "value": "32"
+    },
+    {
+     "label": "RBI",
+     "value": "93"
+    },
+    {
+     "label": "R",
+     "value": "82"
+    },
+    {
+     "label": "SB",
+     "value": "1"
+    },
+    {
+     "label": "OBP",
+     "value": ".400"
+    },
+    {
+     "label": "SLG",
+     "value": ".606"
+    },
+    {
+     "label": "OPS",
+     "value": "1.006"
+    }
+   ],
+   "hints": "dJiLQ5STgUmchBycsFWa0lmbpBycphkIgwiIuMncldGZvREIzVGbldmbBBycvxEIlhGdgI3bmBCZllXYsBHIlhkIgwiIuE0UVBibpBiby9mYgMXY3BCZuFGIykTOxAibpBCZlRXdiVGZg8Ga3Biclh2Y0F2YgEGIzdSZIJyW",
+   "lock": {
+    "salt": "4fpuLpyp+Bjbj92foUHt9g==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "7dffd72fa1aacba012abdc8be2575f1b",
+      "c": "/ut5uAkb4cbyi9DY/d3L7spMxt+8ELowaw4+1Y13Y8lc0wir9rG6BeIH9lEwU1plXDjUmAFgoD2Tf8OW+tDy8Juu"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Wild Card · Rookie Season",
+   "context": "Rookie Season · 120 games",
+   "stats": [
+    {
+     "label": "AVG",
+     "value": ".282"
+    },
+    {
+     "label": "HR",
+     "value": "26"
+    },
+    {
+     "label": "RBI",
+     "value": "82"
+    },
+    {
+     "label": "R",
+     "value": "61"
+    },
+    {
+     "label": "SB",
+     "value": "4"
+    },
+    {
+     "label": "OBP",
+     "value": ".358"
+    },
+    {
+     "label": "SLG",
+     "value": ".550"
+    },
+    {
+     "label": "OPS",
+     "value": ".908"
+    }
+   ],
+   "hints": "=0lIuIkLKBSZyFGIzxWYpRXaulGIzlGSiACLi4yclRXYylGUgg2ZyVnYzRHdpBFIlhGdgI3bmBCZllXYsBHIlhkIgwiIuEGZh5WYDBibpBiby9mYgMXY3BCZuFGIzADMyAibpBCZlRXdiVGZg8Ga3BiclRGbllmZ0V3bgEGIzdSZIJyW",
+   "lock": {
+    "salt": "+CaHl0yjigX8BZy2z6YEaw==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "0f14307771c7aa70fd5943743c624c56",
+      "c": "i0C03aCSxal23cjjQNPs1psjV1YjkJAqz1SI16XPW0amdzf0HCkjEIu1R+hvkPuzZQigPBAOojtNYTLiPsPaSTlKHKAnKPa6HTzYTvs="
+     }
+    ]
+   }
+  }
+ ],
+ "nfl": [
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Week 2 · Road game · 2000",
+   "stats": [
+    {
+     "label": "REC",
+     "value": "15"
+    },
+    {
+     "label": "TGT",
+     "value": "21"
+    },
+    {
+     "label": "REC YDS",
+     "value": "291"
+    },
+    {
+     "label": "YPR",
+     "value": "19.4"
+    },
+    {
+     "label": "REC TD",
+     "value": "3"
+    }
+   ],
+   "hints": "=0lIuMlLKBSZyFGIzxWYpRXaulGIzlGSiACLi4ycyFWdnFmSgUGbslmdu92crNWYKBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiLz5WZ2FmUgUmcv1Wa0xWYCBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "mYU/7/NQVH/K4Mue+sIIow==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "d0da6df9594c3c87cb79030a45e5a070",
+      "c": "3KQJnZKBXWkUIUtbBlhb+rTsOOLfooXNIrCZsyw8+fMD3PBuaGrjIESAzAlyNN09Od+mqQCdRigE8bBraH56huk5Mft13y4D"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Week 13 · Road game · 2011",
+   "stats": [
+    {
+     "label": "C/ATT",
+     "value": "36/51"
+    },
+    {
+     "label": "PASS YDS",
+     "value": "461"
+    },
+    {
+     "label": "PASS TD",
+     "value": "1"
+    },
+    {
+     "label": "INT",
+     "value": "1"
+    },
+    {
+     "label": "RUSH YDS",
+     "value": "0"
+    },
+    {
+     "label": "RUSH TD",
+     "value": "0"
+    }
+   ],
+   "hints": "dJiLT5STgUmchBycsFWa0lmbpBycphkIgwiIuMnbvlGTgQXavJHdlREIlhGdgI3bmBCZllXYsBHIlhkIgwiIuMHdulWYTBycuFWZsJ3TgcXZOBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "uvLPoSc6uSInFKK+3ftiJA==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "9c8a71bd4879ee9412f67b70bc97296a",
+      "c": "AwoZxF/siHO4YRMCkKtpC2rs8LjzTpZLdZpZEJGKmjswTxTpzGdLZ0NQSWfwXPSHnUGH5tCAw/beXYgaIGWgAem8DL03gybj+lriFe4cQ4c="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 16 games",
+   "stats": [
+    {
+     "label": "GP",
+     "value": "16"
+    },
+    {
+     "label": "C/ATT",
+     "value": "375/546"
+    },
+    {
+     "label": "PASS YDS",
+     "value": "4,830"
+    },
+    {
+     "label": "PASS TD",
+     "value": "36"
+    },
+    {
+     "label": "INT",
+     "value": "22"
+    },
+    {
+     "label": "RUSH YDS",
+     "value": "60"
+    },
+    {
+     "label": "RUSH TD",
+     "value": "0"
+    }
+   ],
+   "hints": "==QXi4yVusEIlJXYgMHbhlGdp5WagMXaIJCIsIiLz1WYSBycpV3bMBiL0NFIlhGdgI3bmBCZllXYsBHIlhkIgwiIuQWZ0ZWYyRmb1BCduV2dgQmbhBSY39WSg4mclhGdy9mTgQXYgwGbhJGIldWZsx2bjBCZllXYsBHIvh2dgs2YhJmclRnchVXcgEGIzdSZIJyW",
+   "lock": {
+    "salt": "+itgmnc4q1USRRp5fSTgsg==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "a4aa37700225a5d83972fdab4bb37175",
+      "c": "Yt1kn8l75KbxQf0BNNkoC0KX0mDcdaiSZ26zuFPuXiQa2CdKR0siPxLzKJiB+Zk329WmPdmjm6vpwkx4BQ=="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 16 games",
+   "stats": [
+    {
+     "label": "GP",
+     "value": "16"
+    },
+    {
+     "label": "CAR",
+     "value": "335"
+    },
+    {
+     "label": "RUSH YDS",
+     "value": "1,613"
+    },
+    {
+     "label": "YPC",
+     "value": "4.8"
+    },
+    {
+     "label": "RUSH TD",
+     "value": "13"
+    },
+    {
+     "label": "REC",
+     "value": "11"
+    },
+    {
+     "label": "REC YDS",
+     "value": "77"
+    }
+   ],
+   "hints": "dJiLN5SQgUmchBycsFWa0lmbpBycphkIgwiIuMnbpt2ckVmUg42b0dmbph2chdFIlhGdgI3bmBCZllXYsBHIlhkIgwiIuITMwIDIulGIrNWawBCZuV3by1Ca0ZDIhBychdHIk5WYgMWa05WYsRXQgEGZpJ3bsZEI0FGIsxWYiBSZnVGbs92YgQWZ5FGbwBybodHIrNWYiByZulmbuVncgEGIzdSZIJyW",
+   "lock": {
+    "salt": "cuZUUPkrqdKFL12VZFnY4Q==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "bd1d67716a7ae42c56ecc02ecf121b3a",
+      "c": "NKbGBMUQ6MsNP1YEEaHUd5ea4Zjzxa0G6putJ+6IfCGlm66m7KV9dkh/V/vXxkfYRr56DJ8vHCzgxXCliomXMjQMQlg="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Wild Card · Playoff Game",
+   "context": "Wild Card Round · Home game · 2020 season",
+   "stats": [
+    {
+     "label": "C/ATT",
+     "value": "47/68"
+    },
+    {
+     "label": "PASS YDS",
+     "value": "501"
+    },
+    {
+     "label": "PASS TD",
+     "value": "4"
+    },
+    {
+     "label": "INT",
+     "value": "4"
+    },
+    {
+     "label": "RUSH YDS",
+     "value": "0"
+    },
+    {
+     "label": "RUSH TD",
+     "value": "0"
+    }
+   ],
+   "hints": "==QXi4iUuIEIlJXYgMHbhlGdp5WagMXaIJCIsIiLzJXZsVWZ0NFIodmc1J2c0RXaQBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiLz52dvJnQgQmbhxWZ2VGbDBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "vswvXobaPW1qzRk63xibdw==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "bfa74e2c267b7d1fbeb6ffcbe1bf5c8a",
+      "c": "QYc4JKjZA4CT4bI5wz6di91IF4HXOcvFVx8+AsXWFgd77zVizHvHp4HEpNTUsxu1G4ozNiEV0WDZ79kKMoTZdNYSV3vRaB2iL1IcrQ6YCqO0rOApxe08Ga+y"
+     }
+    ]
+   }
+  }
+ ],
+ "previous": {
+  "date": "2026-11-24",
+  "nba": [
+   {
+    "answer": "Kobe Bryant",
+    "reveal": "Jan 22, 2006 · Lakers 122, Raptors 104"
+   },
+   {
+    "answer": "Luka Dončić",
+    "reveal": "Jan 26, 2024 · Mavericks 148, Hawks 143"
+   },
+   {
+    "answer": "Stephen Curry",
+    "reveal": "2015-16 · Unanimous MVP"
+   },
+   {
+    "answer": "Russell Westbrook",
+    "reveal": "2016-17 · MVP"
+   },
+   {
+    "answer": "LeBron James",
+    "reveal": "2016 NBA Finals · Finals MVP"
+   }
+  ],
+  "mlb": [
+   {
+    "answer": "Shohei Ohtani",
+    "reveal": "Sep 19, 2024 · Dodgers 20, Marlins 4"
+   },
+   {
+    "answer": "Kerry Wood",
+    "reveal": "May 6, 1998 · Cubs 2, Astros 0"
+   },
+   {
+    "answer": "Barry Bonds",
+    "reveal": "2001 · NL MVP"
+   },
+   {
+    "answer": "Pedro Martinez",
+    "reveal": "2000 · AL Cy Young"
+   },
+   {
+    "answer": "Madison Bumgarner",
+    "reveal": "2014 Postseason · World Series MVP"
+   }
+  ],
+  "nfl": [
+   {
+    "answer": "Adrian Peterson",
+    "reveal": "Nov 4, 2007 · Vikings 35, Chargers 17"
+   },
+   {
+    "answer": "Tom Brady",
+    "reveal": "Super Bowl LI · Patriots 34, Falcons 28 (OT)"
+   },
+   {
+    "answer": "Peyton Manning",
+    "reveal": "2013 · NFL MVP"
+   },
+   {
+    "answer": "Cooper Kupp",
+    "reveal": "2021 · OPOY & Super Bowl LVI MVP"
+   },
+   {
+    "answer": "Jerry Rice",
+    "reveal": "1985-2004 · Hall of Fame 2010"
+   }
+  ]
+ }
+}
