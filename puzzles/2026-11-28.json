@@ -1,0 +1,769 @@
+{
+ "date": "2026-11-28",
+ "nba": [
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Road game · 2026-27",
+   "stats": [
+    {
+     "label": "PTS",
+     "value": "50"
+    },
+    {
+     "label": "FG",
+     "value": "15-23"
+    },
+    {
+     "label": "3PT",
+     "value": "7-12"
+    },
+    {
+     "label": "FT",
+     "value": "13-13"
+    },
+    {
+     "label": "REB",
+     "value": "11"
+    },
+    {
+     "label": "AST",
+     "value": "7"
+    },
+    {
+     "label": "STL",
+     "value": "1"
+    },
+    {
+     "label": "BLK",
+     "value": "0"
+    },
+    {
+     "label": "MIN",
+     "value": "40"
+    }
+   ],
+   "hints": "=0lIugkLUBSZyFGIzxWYpRXaulGIzlGSiACLi4ycrNWdCBSZltWdhdHbp1EIlhGdgI3bmBCZllXYsBHIlhkIgwiIuMnclZzNgEWaoBHblRWYslGaQBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "neXqouI/OgdZKrwaIQ3W6A==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "4fdc23985b1304fc932524452e1d8ffe",
+      "c": "zQebMB9RR4dB86XVdljoDvT9Ey7q6Ra8MfmMsqeKGjfP2LzwwJdGROL1ZS9v8uav5o+vS6TtvYsNrA63mEyrYr+0zWgSdWOoGbQlfFuTDjTh5XH3k4THqA=="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Home game · 2010-11",
+   "stats": [
+    {
+     "label": "PTS",
+     "value": "44"
+    },
+    {
+     "label": "FG",
+     "value": "14-24"
+    },
+    {
+     "label": "3PT",
+     "value": "0-0"
+    },
+    {
+     "label": "FT",
+     "value": "16-23"
+    },
+    {
+     "label": "REB",
+     "value": "15"
+    },
+    {
+     "label": "AST",
+     "value": "7"
+    },
+    {
+     "label": "STL",
+     "value": "2"
+    },
+    {
+     "label": "BLK",
+     "value": "1"
+    },
+    {
+     "label": "MIN",
+     "value": "39"
+    }
+   ],
+   "hints": "==QXi4yRuIEIlJXYgMHbhlGdp5WagMXaIJCIsIiLzJXZwBXasNEIBxEIlhGdgI3bmBCZllXYsBHIlhkIgwiIuM3ajlmbLByay9WWgcXZOBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "Pk1A6m2maOpz43moD9kmsg==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "0edc53c24b4ce4b4dd2bd1330263bd7e",
+      "c": "IfpVM2pV9rhqJMJV/lDRjaJ18XSVl0/w+iFQkVb/vzX0q+VKLekm8in4Uz6lYisosTXy1PNdJOE1ncrCbVFNoG5sJPuMSmIQWSbtzLXLgNBC1wS30wxgJjg="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 68 games",
+   "stats": [
+    {
+     "label": "PPG",
+     "value": "21.1"
+    },
+    {
+     "label": "RPG",
+     "value": "8.3"
+    },
+    {
+     "label": "APG",
+     "value": "9.2"
+    },
+    {
+     "label": "SPG",
+     "value": "2.0"
+    },
+    {
+     "label": "BPG",
+     "value": "0.3"
+    },
+    {
+     "label": "FG%",
+     "value": "46.2"
+    },
+    {
+     "label": "3P%",
+     "value": "32.7"
+    },
+    {
+     "label": "FT%",
+     "value": "79.4"
+    }
+   ],
+   "hints": "=0lIu0kLEBSZyFGIzxWYpRXaulGIzlGSiACLi4ycyVHcTBybp52b05WQg4WYTBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiL2EDMyAibpBCd1JWZkBSQC5EIzlGagUGZh1GIvh2dgQmchV3ZgEGIzdSZIJyW",
+   "lock": {
+    "salt": "PajMwuCJLtLaSwdOhKKWIw==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "4eb84fa36a1561a07693c60f6c1983e7",
+      "c": "63UiVZ8PEFnw4n3J/0DvV3SZmt0kSRXh6XW7N0wB4QljGAjlwF7wdqrLO4mXzFMizDdCS9adaUuL0b6PlRSfVLZy7gRduqc="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 78 games",
+   "stats": [
+    {
+     "label": "PPG",
+     "value": "27.7"
+    },
+    {
+     "label": "RPG",
+     "value": "6.8"
+    },
+    {
+     "label": "APG",
+     "value": "2.7"
+    },
+    {
+     "label": "SPG",
+     "value": "1.1"
+    },
+    {
+     "label": "BPG",
+     "value": "1.0"
+    },
+    {
+     "label": "FG%",
+     "value": "46.2"
+    },
+    {
+     "label": "3P%",
+     "value": "35.0"
+    },
+    {
+     "label": "FT%",
+     "value": "88.0"
+    }
+   ],
+   "hints": "dJiLE5ySgUmchBycsFWa0lmbpBycphkIgwiIuIXZk5WdoRFI5RXaDBSYt9Gahx2aPBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiLu92chV2cgQXYoRHIn5Way92YzBibpBSQC5EIlhGdgQWZsBSZIJyW",
+   "lock": {
+    "salt": "pos80pgoeUit9gThCnujcw==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "1c51536b9577e274bd80ff31f0b92c2c",
+      "c": "Nt1/Y2N1zBBN9rMGDi9TEKGZutQCg8LEmx27O398RUf3bYFc7mzUqi1JlHat6XIny+Kt2Y5thWkmVjGe4IQ6KADBbwYflp3L"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Wild Card · Rookie Season",
+   "context": "Rookie Season · 51 games",
+   "stats": [
+    {
+     "label": "PPG",
+     "value": "15.7"
+    },
+    {
+     "label": "RPG",
+     "value": "5.9"
+    },
+    {
+     "label": "APG",
+     "value": "6.1"
+    },
+    {
+     "label": "SPG",
+     "value": "1.6"
+    },
+    {
+     "label": "BPG",
+     "value": "0.4"
+    },
+    {
+     "label": "FG%",
+     "value": "43.6"
+    },
+    {
+     "label": "3P%",
+     "value": "35.2"
+    }
+   ],
+   "hints": "=0lIuIkLMBSZyFGIzxWYpRXaulGIzlGSiACLi4yc0Vmby9GSgUGd09GbyFGaDBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiLu92chV2cgEkQOBCdzJXamBycphGIzF2dgMXaoRHIk5WYgQmchV3ZgEGIzdSZIJyW",
+   "lock": {
+    "salt": "VWcandDT5VrzV+lkjW5f8g==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "90118adaad359f54ee69c05443f7b69f",
+      "c": "iqJO7QyYvr3La0DpXBZvLpzKprqcjW4sdED+UzPpywQQ/7u4OnxYG6K4K+3mNmO1gzD9k7H8NgFUkiyd09plLC6K8ZaQIZLWUejGVSb4J9fL"
+     }
+    ]
+   }
+  }
+ ],
+ "mlb": [
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Road start · 2004",
+   "stats": [
+    {
+     "label": "IP",
+     "value": "9.0"
+    },
+    {
+     "label": "H",
+     "value": "0"
+    },
+    {
+     "label": "R",
+     "value": "0"
+    },
+    {
+     "label": "ER",
+     "value": "0"
+    },
+    {
+     "label": "BB",
+     "value": "0"
+    },
+    {
+     "label": "K",
+     "value": "13"
+    },
+    {
+     "label": "PITCHES",
+     "value": "117"
+    }
+   ],
+   "hints": "==QXi4iSuIFIlJXYgMHbhlGdp5WagMXaIJCIsIiLzt2YhJGZu9WbhlGRgEmbvpXayFEIlhGdgI3bmBCZlh2Y0lGcgUGSiACLi4yclZXYyJEIhRnbhxGdBBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "9YrsAUM1Bx/xA9SQ0GkVJQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "8f1d35fc1208392f5bc1d3fde5e44059",
+      "c": "4FIziZlghjbxmft4X4c2STECcZk+KoPp/rTtisGukcfBiLXapFL1K5HI/S/h32DNy/AuTjQRmhxM7orp3xO9gKwn1Komdcwa3TDTTClcuGX60pQ418bGaSM="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Home game · 2006",
+   "stats": [
+    {
+     "label": "AB",
+     "value": "5"
+    },
+    {
+     "label": "H",
+     "value": "4"
+    },
+    {
+     "label": "HR",
+     "value": "3"
+    },
+    {
+     "label": "2B",
+     "value": "1"
+    },
+    {
+     "label": "TB",
+     "value": "14"
+    },
+    {
+     "label": "RBI",
+     "value": "5"
+    },
+    {
+     "label": "R",
+     "value": "3"
+    },
+    {
+     "label": "BB",
+     "value": "0"
+    }
+   ],
+   "hints": "dJiLT5SQgUmchBycsFWa0lmbpBycphkIgwiIuMHbh52bpRXYOBibvR3ZulGazF2VgUGa0BicvZGIkVWehxGcgUGSiACLi4yclZXYyJEIhRnbhxGdBBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "FX8H2WekcT7EbUCB5mWlvQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "007a6a518f424eb115766b3f74b432b2",
+      "c": "Lir0GaB+dicgv/CNJ8AuFhoYzW/9i51JsblryTzRI2YQv2iuKVoTKCPYLN4Ueyt3DR/QirHbt07LwMXmfGLbp7D4ntfjQbBXPV6AQKs="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 161 games",
+   "stats": [
+    {
+     "label": "AVG",
+     "value": ".260"
+    },
+    {
+     "label": "HR",
+     "value": "54"
+    },
+    {
+     "label": "RBI",
+     "value": "124"
+    },
+    {
+     "label": "R",
+     "value": "109"
+    },
+    {
+     "label": "SB",
+     "value": "9"
+    },
+    {
+     "label": "OBP",
+     "value": ".378"
+    },
+    {
+     "label": "SLG",
+     "value": ".617"
+    },
+    {
+     "label": "OPS",
+     "value": ".995"
+    }
+   ],
+   "hints": "==QXi4iQuoEIlJXYgMHbhlGdp5WagMXaIJCIsIiLzlXYKBSZ1xmQg8Gdu9mcvRFIlhGdgI3bmBCZllXYsBHIlhkIgwiIu42bzFWZzBCdhhGdgMnb1JHIl12boBibpBycy9mah1GIlhGdgQWZsBSZIJyW",
+   "lock": {
+    "salt": "gCvsOPdrS7GHomnWzCoHZQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "3041c4bdfca2d9eb310b1d72c7f3837d",
+      "c": "EkMqlK+nmFGs4BJdUYjSktt0OV1nRTuIcht3oOQFRBMQtmHVu2BGwZDD93BP8IFLVAwt8koYp7kzWhi5yO/GmQTzaw=="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 157 games",
+   "stats": [
+    {
+     "label": "AVG",
+     "value": ".355"
+    },
+    {
+     "label": "HR",
+     "value": "25"
+    },
+    {
+     "label": "RBI",
+     "value": "100"
+    },
+    {
+     "label": "R",
+     "value": "121"
+    },
+    {
+     "label": "SB",
+     "value": "28"
+    },
+    {
+     "label": "OBP",
+     "value": ".409"
+    },
+    {
+     "label": "SLG",
+     "value": ".541"
+    },
+    {
+     "label": "OPS",
+     "value": ".950"
+    }
+   ],
+   "hints": "==QXi4SRuQEIlJXYgMHbhlGdp5WagMXaIJCIsIiLzxWZn5WQg0WalhWYuFEIlhGdgI3bmBCZllXYsBHIlhkIgwiIuE0UVBibpBiby9mYgMXY3BCZuFGI2kTOxAibpBCZlRXdiVGZg8Ga3BiclRGbllmZ0V3bgEGIzdSZIJyW",
+   "lock": {
+    "salt": "561lZsetf6i0/WVnpK4kGw==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "1226ee8d1b024e95c1542458433a6b48",
+      "c": "j791r/VUUS07IGMopuP4i1tfm5PqCNepf+aEQ1Y7HQl50DCCHPEXRJ+puYaJDJ7wXCcaH8YaOnt3we7FPx4="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Wild Card · Career Totals",
+   "context": "Regular-season career totals",
+   "stats": [
+    {
+     "label": "W-L",
+     "value": "324-292"
+    },
+    {
+     "label": "ERA",
+     "value": "3.19"
+    },
+    {
+     "label": "IP",
+     "value": "5386.0"
+    },
+    {
+     "label": "K",
+     "value": "5,714"
+    },
+    {
+     "label": "SV",
+     "value": "3"
+    },
+    {
+     "label": "WHIP",
+     "value": "1.25"
+    }
+   ],
+   "hints": "dJiLS5iTgUmchBycsFWa0lmbpBycphkIgwiIuMTO5EDIzF2dg42bzFWZzBiQM1EI0NXYsBycphkIgwiIuE0UVBibpBiby9mYgMXY3BCZuFGI2YTOxAibpBCZlRXdiVGZg8Ga3Biclh2Y0lGcgEGIzdSZIJyW",
+   "lock": {
+    "salt": "U3PIsmbyIcemAXDHud59gQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "18ace24daa785442bc4a26c1034f55f5",
+      "c": "GEKmx6oLX+GO7S+7Iid5YxTScxIYRzdP0odTuHACxh4sBN4T+rCxDxWuS6AJcnWQa5zFF1lqGHkok017"
+     },
+     {
+      "h": "81923a46569ac000ab6c7a18a3e90f54",
+      "c": "/lNO/NJLrVU2oeZy2Psc4pB+NupMq5HUWet1xwRAksRJYWCuqwdxB/03N2CMih56YGPdzmo2BYvDdfuA"
+     }
+    ]
+   }
+  }
+ ],
+ "nfl": [
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Week 16 · Road game · 2023",
+   "stats": [
+    {
+     "label": "REC",
+     "value": "11"
+    },
+    {
+     "label": "TGT",
+     "value": "15"
+    },
+    {
+     "label": "REC YDS",
+     "value": "265"
+    },
+    {
+     "label": "YPR",
+     "value": "24.1"
+    },
+    {
+     "label": "REC TD",
+     "value": "2"
+    }
+   ],
+   "hints": "=0lIuMkLBBSZyFGIzxWYpRXaulGIzlGSiACLi4ycud3byJEIk5WYsVmdlx2QgUGa0BicvZGIkVWehxGcgUGSiACLi4ycuFGelRFIu9GdzV3bIBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "0YB/fDciBqmFnuS039wG4g==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "cd76f4a9e623f2970b3f5a3198c7f0e3",
+      "c": "QUzruxY3c+vLRV0EhBXtWk9VS5HQTpKoa+UYlZ7HchZE67qBuuR2HvvrYJ3qORGgwNLfR4du1Yx/VT0qhgLmNl2Y/P50Y49s"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Single Game Box Score",
+   "context": "Regular Season · Week 13 · Home game · 2005",
+   "stats": [
+    {
+     "label": "REC",
+     "value": "15"
+    },
+    {
+     "label": "TGT",
+     "value": "0"
+    },
+    {
+     "label": "REC YDS",
+     "value": "238"
+    },
+    {
+     "label": "YPR",
+     "value": "15.9"
+    },
+    {
+     "label": "REC TD",
+     "value": "1"
+    }
+   ],
+   "hints": "=0lIuMkLDBSZyFGIzxWYpRXaulGIzlGSiACLi4yculGawx2bEBSatFWaNBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiLzxGbpJEIvxWYmZWdCBSZoRHIzF2dgQnbl52bwB3bgUGaUJyW",
+   "lock": {
+    "salt": "CBr9a54/EJEm+j9f32IPMg==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "5b55c513cac82ca75775c91e07abbe06",
+      "c": "Zgbwfs4azsXdO8q8Ep74B2Qt9N20sjU3ufahqjfw+R/7UPq/vrN/qPN7VRTBGweG/KAdOuiK0s4JUGSj+hBaGMURSNixQ4b8jd8M"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 17 games",
+   "stats": [
+    {
+     "label": "GP",
+     "value": "17"
+    },
+    {
+     "label": "C/ATT",
+     "value": "443/672"
+    },
+    {
+     "label": "PASS YDS",
+     "value": "5,014"
+    },
+    {
+     "label": "PASS TD",
+     "value": "38"
+    },
+    {
+     "label": "INT",
+     "value": "15"
+    },
+    {
+     "label": "RUSH YDS",
+     "value": "302"
+    },
+    {
+     "label": "RUSH TD",
+     "value": "3"
+    }
+   ],
+   "hints": "=0lIugkLKBSZyFGIzxWYpRXaulGIzlGSiACLi4ycyV2ZyFGaDByclxWZn5WQgM3bMBSZoRHIy9mZgQWZ5FGbwBSZIJCIsIiLwIDMyAibpByajlGcgQmb19mctQ3cxASYgMXY3BCZuFGIu92ZlJ3TgQXYgwGbhJGIldWZsx2bjBCZllXYsBHIvh2dgs2YhJmclRnchVXcgEGIzdSZIJyW",
+   "lock": {
+    "salt": "ZziKNGor/i7V76Fy64p+TQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "28915fb7c6c8881681e08a77c97d3c04",
+      "c": "0F3SjZRFiEeNrSAm09Dp+s2PkzDq/F+ccI+b+Xi4nMC+AuiRTae6PJXajqKziWzMOf+ahLeOuc+HG4JgHyPYwtNIS7oyEw=="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Full Season Statline",
+   "context": "Regular Season · 16 games",
+   "stats": [
+    {
+     "label": "GP",
+     "value": "16"
+    },
+    {
+     "label": "C/ATT",
+     "value": "396/572"
+    },
+    {
+     "label": "PASS YDS",
+     "value": "4,544"
+    },
+    {
+     "label": "PASS TD",
+     "value": "37"
+    },
+    {
+     "label": "INT",
+     "value": "10"
+    },
+    {
+     "label": "RUSH YDS",
+     "value": "421"
+    },
+    {
+     "label": "RUSH TD",
+     "value": "8"
+    }
+   ],
+   "hints": "=0lIuEkLKBSZyFGIzxWYpRXaulGIzlGSiACLi4ycsxWaCBybsFmZmVnQgUGa0BicvZGIkVWehxGcgUGSiACLi4COxAjMg4Wags2YpBHIk5WdvJXL0NXMgEGIzF2dgQmbhBSelxGZlVmUgszZulWbvl3VgQXYgwGbhJGIldWZsx2bjBCZllXYsBHIvh2dgs2YhJmclRnchVXcgEGIzdSZIJyW",
+   "lock": {
+    "salt": "PaZOVaxwRUurVLi60w+Cjg==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "18614907a80d6e932c79cbcd8a41f12b",
+      "c": "VqC/YQebFV3HFZW3i7KkQ7aVpTetLfIk2vI6RyQ0HrJdEnz+N2u6a3Nh/yXTVbGiekEDmJ77398BGOY="
+     }
+    ]
+   }
+  },
+  {
+   "type": "Wild Card · Career Totals",
+   "context": "Regular-season career · 16 seasons",
+   "stats": [
+    {
+     "label": "GP",
+     "value": "219"
+    },
+    {
+     "label": "REC",
+     "value": "1031"
+    },
+    {
+     "label": "TGT",
+     "value": "1029"
+    },
+    {
+     "label": "REC YDS",
+     "value": "14,727"
+    },
+    {
+     "label": "YPR",
+     "value": "14.3"
+    },
+    {
+     "label": "REC TD",
+     "value": "81"
+    }
+   ],
+   "hints": "==QXi4yUuMFIlJXYgMHbhlGdp5WagMXaIJCIsIiLzJXZoRnbhBFIh5Was9mchNEIlhGdgI3bmBycl1WYnBCdz9WbgUGa0BCZllXYsBHIlhkIgwiIuEDMwIDIulGIrNWawBCZuV3by1CZyNDIhBychdHIk5WYgE2Yp52bNBSY05WYTByOoFGdVBCdhBCbsFmYgU2ZlxGbvNGIkVWehxGcg8Ga3BiclZXalNWZyBSZkl2dgEGIzdSZIJyW",
+   "lock": {
+    "salt": "qzjzv6HOSc7t1gOsFan1zQ==",
+    "iter": 200000,
+    "keys": [
+     {
+      "h": "dd6a5468883e43192a4e6618bdf0b154",
+      "c": "WBBnnwknEbWdIOsonPUruxEowPLM2P44qnQp3ALCFUDQiBU57xxxyoDelKpgmJGfQ9Jq15ToUyjy"
+     }
+    ]
+   }
+  }
+ ],
+ "previous": {
+  "date": "2026-11-27",
+  "nba": [
+   {
+    "answer": "Bam Adebayo",
+    "reveal": "Mar 10, 2026 · vs. Washington Wizards · W 150-129"
+   },
+   {
+    "answer": "Joel Embiid",
+    "reveal": "Dec 11, 2022 · vs. Charlotte Hornets · W 131-113"
+   },
+   {
+    "answer": "Allen Iverson",
+    "reveal": "2000-01 · Philadelphia 76ers"
+   },
+   {
+    "answer": "Kawhi Leonard",
+    "reveal": "2018-19 · Toronto Raptors"
+   },
+   {
+    "answer": "Trae Young",
+    "reveal": "2018-19 rookie season · Atlanta Hawks"
+   }
+  ],
+  "mlb": [
+   {
+    "answer": "Max Scherzer",
+    "reveal": "May 11, 2016 · vs. Detroit Tigers"
+   },
+   {
+    "answer": "David Wells",
+    "reveal": "Jul 30, 1997 · vs. Oakland Athletics"
+   },
+   {
+    "answer": "Christian Yelich",
+    "reveal": "2019 · Milwaukee Brewers"
+   },
+   {
+    "answer": "Greg Vaughn",
+    "reveal": "1998 · San Diego Padres"
+   },
+   {
+    "answer": "Gary Sheffield",
+    "reveal": "Career 1988–2009"
+   }
+  ],
+  "nfl": [
+   {
+    "answer": "Calvin Johnson",
+    "reveal": "2013 Week 8 · vs. Dallas Cowboys"
+   },
+   {
+    "answer": "Mike Anderson",
+    "reveal": "2000 Week 14 · @ New Orleans Saints"
+   },
+   {
+    "answer": "Eli Manning",
+    "reveal": "2011 · New York Giants"
+   },
+   {
+    "answer": "Matt Ryan",
+    "reveal": "2015 · Atlanta Falcons"
+   },
+   {
+    "answer": "Aaron Jones",
+    "reveal": "2023 Wild Card Round · @ Dallas Cowboys"
+   }
+  ]
+ }
+}
